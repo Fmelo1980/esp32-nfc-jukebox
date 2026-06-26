@@ -52,5 +52,5 @@ Para que este proyecto pase de ser un montón de cables a un juguete real e intu
 
 1. Instala las librerías `Adafruit PN532` y `DFRobotDFPlayerMini` en Arduino IDE.
 2. **Preparar la MicroSD:** Formatea una tarjeta MicroSD en **FAT32**. Crea una carpeta en la raíz llamada `mp3` (en minúsculas) y guarda tus archivos nombrados exactamente como: `0001.mp3`, `0002.mp3`, `0003.mp3`, etc.
-3. **Escanear Tarjetas:** Carga el código de la carpeta `/src` en tu ESP32-C3 usando Arduino IDE. Abre el Monitor Serie a **115200 bps** y pasa tus tarjetas para copiar sus códigos de identificación (UID).
+3. **Escanear Tarjetas:** Carga el código en tu ESP32-C3 usando Arduino IDE. Abre el Monitor Serie a **115200 bps** y pasa tus tarjetas para copiar sus códigos de identificación (UID).
 4. **Asignar Canciones:** Reemplaza los UIDs de ejemplo en los condicionales `if` del código por tus códigos reales y vuelve a subir el programa.
