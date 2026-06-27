@@ -54,3 +54,5 @@ Para que este proyecto pase de ser un montón de cables a un juguete real e intu
 2. **Preparar la MicroSD:** Formatea una tarjeta MicroSD en **FAT32**. Crea una carpeta en la raíz llamada `mp3` (en minúsculas) y guarda tus archivos nombrados exactamente como: `0001.mp3`, `0002.mp3`, `0003.mp3`, etc.
 3. **Escanear Tarjetas:** Carga el código en tu ESP32-C3 usando Arduino IDE. Abre el Monitor Serie a **115200 bps** y pasa tus tarjetas para copiar sus códigos de identificación (UID).
 4. **Asignar Canciones:** Reemplaza los UIDs de ejemplo en los condicionales `if` del código por tus códigos reales y vuelve a subir el programa.
+
+Nota: Admito que el codigo fue generado por inteligencia artificial (Gemini), la última vez que programé un micro fue un PIC 16F84 en Assembler hace mucho tiempo. Igual costó muchos intentos y cambios para que el proyecto funcionara correcto. Gracias
